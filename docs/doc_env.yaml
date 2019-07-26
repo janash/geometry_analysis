@@ -1,0 +1,23 @@
+name: documentation
+channels:
+dependencies:
+    # Base depends
+  - python
+  - pip
+
+    # Testing
+  - pytest
+  - pytest-cov
+  - codecov
+
+  # Dependencies
+  - numpy
+
+  # Documentation
+  - sphinx
+  - sphinx_rtd_theme
+  - sphinx-automodapi
+
+    # Pip-only installs
+  #- pip:
+  #  - codecov
