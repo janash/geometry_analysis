@@ -163,6 +163,3 @@ texinfo_documents = [
 
 
 # -- Extension configuration -------------------------------------------------
-# ensure the autodoc and napoleon are in the extensions
-extensions = ['sphinx.ext.autodoc', 'sphinx.ext.napoleon', 'sphinx_automodapi.automodapi',
-    'sphinx_automodapi.automodsumm',
